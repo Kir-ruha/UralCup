@@ -1,0 +1,13 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases and runtime state
+*.sqlite
+*.sqlite3
+*.db
